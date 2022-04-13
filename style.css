@@ -13,6 +13,7 @@ body {
 
 header {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 header,
@@ -45,9 +46,6 @@ form button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  form {
-    width: 80%;
-  }
 
   .todo-list {
     width: 100%;
@@ -148,5 +146,13 @@ select {
 .select:hover::after {
   background-color: white;
   color: #66d478;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
