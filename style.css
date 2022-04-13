@@ -21,6 +21,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 form input, 
@@ -41,6 +42,16 @@ form button {
 form button:hover {
   color: white;
   background-color: #66d478;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+
+  .todo-list {
+    width: 100%;
+  }
 }
 
 .todo-container {
