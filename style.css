@@ -46,7 +46,9 @@ form button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
+  .container {
+    width: 80%;
+  }
   .todo-list {
     width: 100%;
   }
@@ -154,5 +156,6 @@ select {
   justify-content: center;
   width: 90%;
   margin: auto;
+  padding: 0 20px;
 }
 
